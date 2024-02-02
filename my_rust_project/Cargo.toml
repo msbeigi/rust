@@ -5,6 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+# [dependencies]
 # Add the name of your project here as a dependency
-my_rust_project = { path = "." }
+# my_rust_project = { path = "." }
