@@ -1,5 +1,5 @@
 [![Rust](https://img.shields.io/badge/Rust-1.56.0-orange.svg)](https://www.rust-lang.org/)
-
+[![Rust](https://github.com/msbeigi/rust/actions/workflows/rust.yml/badge.svg)](https://github.com/msbeigi/rust/actions/workflows/rust.yml)
 # Rust Project
 
 This project is a Rust application structured as a library and an executable, built using Cargo, the Rust package manager. It includes reusable functionality defined in the `lib.rs` file and an entry point executable in `main.rs`.
