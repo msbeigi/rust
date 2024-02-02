@@ -28,12 +28,12 @@ jobs:
       - name: Build
         run: |
           cd ..
-          cd my_rust_project 
+          cd ./my_rust_project 
           cargo build --verbose
       - name: Run tests
         run: |
           cd ..
-          cd my_rust_project 
+          cd ./my_rust_project 
           cargo test --verbose
 
     # steps:
