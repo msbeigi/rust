@@ -42,6 +42,13 @@ jobs:
           cd my_rust_project 
           cargo test --verbose
 
+      - name: Build and test
+        run: |
+          cd my_rust_project
+          make all
+    
+    
+    
     # steps:
     # - uses: actions/checkout@v3
     # - name: Navigate to project directory
