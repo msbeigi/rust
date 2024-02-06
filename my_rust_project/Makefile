@@ -13,7 +13,8 @@ lint:
 	cargo clippy # --quiet
 
 test:
-	cargo test --quiet
+	cargo test --quiet --test test
+ 
 
 run:
 	cargo run
