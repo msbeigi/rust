@@ -1,0 +1,20 @@
+[package]
+name = "translate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust-bert = "0.22.0"
+libc = "0.2.0"
+clap = { version = "4.0.32", features = ["derive"] }
+anyhow = "1.0.51"
+torch-sys = "0.14.0"  # Adding torch-sys
+
+
+[features]
+download-libtorch = ["torch-sys/download-libtorch"]
+python-extension = ["torch-sys/python-extension"]
+rl-python = ["cpython"]
+cuda-tests = []
